@@ -54,8 +54,11 @@ a {
     color: #404bbf;
 }
 
+.hero-section {
+    background-color: #2e2f42;
+}
+
 .hero-title {
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.1;
     letter-spacing: 0.02em;
@@ -69,8 +72,14 @@ a {
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #fff;
+        background-color: #4d5ae5;
         cursor: pointer;
     }
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404bbf;
+}
 
 .features-titles {
     font-weight: 500;
@@ -81,14 +90,20 @@ a {
 }
 
 .features-description {
-    font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
 
+.team {
+    background-color: #f4f4fd;
+}
+
+.team-items {
+    background-color: #fff;
+}
+
 .team-and-portfolio {
-    font-weight: 700;
         font-size: 36px;
         line-height: 1.1;
         letter-spacing: 0.02em;
@@ -106,7 +121,6 @@ a {
 }
 
 .team-member-profession {
-    font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -122,10 +136,13 @@ a {
 }
 
 .portfolio-type {
-    font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+}
+
+.page-footer {
+    background-color: #2e2f42;
 }
 
 .footer-logo {
@@ -143,7 +160,6 @@ a {
 }
 
 .footer-text {
-    font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
